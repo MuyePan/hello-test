@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+echo "this is a test from Muye Pan"
+
+# 让 debhelper 能插入片段
+# (必须保留在脚本中，通常放在 exit 0 前)
+#DEBHELPER#
+
+exit 0
